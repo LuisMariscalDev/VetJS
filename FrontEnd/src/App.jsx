@@ -1,7 +1,7 @@
 function App() {
 
   return (
-    <h1>Hola Mundo desde React</h1>
+    <h1 className="font-bold text-2xl">Hola Mundo desde React</h1>
   )
 }
 

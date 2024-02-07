@@ -1,7 +1,16 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import AuthLayout from './layout/AuthLayout.jsx';
+import Login from './pages/Login.jsx';
 function App() {
 
   return (
-    <h1 className="font-bold text-2xl">Hola Mundo desde React</h1>
+      <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<AuthLayout/>}>
+              <Route index element={<Login/>}/>
+            </Route>
+          </Routes>
+      </BrowserRouter>
   )
 }
 

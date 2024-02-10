@@ -73,7 +73,7 @@ const Registrar = () => {
               </label>
               <input
                 type="text"
-                placeholder="Tu nombre"
+                placeholder="Nombre completo"
                 className="border w-full p-3 mt-3 bg-gray-50 rounded-xl"
                 value={nombre}
                 onChange={ e => setNombre(e.target.value)}

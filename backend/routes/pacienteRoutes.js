@@ -4,8 +4,8 @@ import {
     obtenerPacientes, 
     obtenerPaciente, 
     actualizarPaciente, 
-    eliminarPaciente } from "../controllers/pacienteController.js";
-import checkAuth from "../middleware/authMiddleware.js";
+    eliminarPaciente } from "../controllers/pacienteController.js"
+import checkAuth from "../middleware/authMiddleware.js"
 const router = express.Router();
 
 router.route('/')

@@ -36,7 +36,8 @@ const OlvidePassword = () => {
 
         <div className="mt-20 md:mt-5 shadow-lg px-5 py-10 rounded-xl bg-white">
 
-          {msg &&           <Alerta
+          {msg &&           
+            <Alerta
             alerta={alerta}
           />}
 

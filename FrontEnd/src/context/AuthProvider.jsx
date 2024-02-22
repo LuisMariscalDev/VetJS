@@ -14,7 +14,7 @@ const AuthProvider = ({children}) => {
 
             if(!token){
                 setCargando(false)
-                return;
+                return
             }
 
             const config = {

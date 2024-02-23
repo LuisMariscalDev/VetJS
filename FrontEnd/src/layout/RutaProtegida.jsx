@@ -13,7 +13,7 @@ const RutaProtegida = () => {
   return (
     <>
        <Header/>
-        {auth.perfil?._id ? (
+        {auth?._id ? (
           <main className="container mx-auto mt-10">
             <Outlet/>
           </main> ) :  navigate('/')}

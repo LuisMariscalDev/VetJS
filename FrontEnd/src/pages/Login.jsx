@@ -31,7 +31,7 @@ const Login = () => {
     } catch (error) {
       setAlerta({
         msg: error.response.data.msg,
-        error: true,
+        error: true
       })
     }
   }

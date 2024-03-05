@@ -17,7 +17,7 @@ const Login = () => {
 
     if([email, password].includes('')) {
       setAlerta({
-        msg: 'Todos los campos son olbigatorios',
+        msg: 'Todos los campos son obligatorios',
         error: true
       });
       return;

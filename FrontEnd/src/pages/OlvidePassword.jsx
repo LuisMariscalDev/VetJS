@@ -72,7 +72,7 @@ const OlvidePassword = () => {
             to="/">¿Ya tienes una cuenta con nosotros? Inicia Sesión</Link>
             <Link
             className="block text-center my-5 text-gray-500"
-            to="/registrar">¿Aún no tienes una cuenta? Regístrate</Link>
+            to="/registrar">¿Aún no tienes una cuenta con nosotros? Regístrate</Link>
           </nav>
 
         </div>

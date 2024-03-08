@@ -23,7 +23,7 @@ function App() {
               <Route path='confirmar/:id' element={<ConfirmarCuenta/>}/>
             </Route>
 
-            <Route path="/admin" element={<RutaProtegida/>}>
+            <Route path='/admin' element={<RutaProtegida/>}>
               <Route index element={<AdministrarPacientes/>}/>
 
             </Route>
